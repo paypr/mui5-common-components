@@ -5,9 +5,11 @@
     "declaration": true,
     "declarationMap": true,
     "pretty": true,
-    "module": "commonjs",
+    "module": "esnext",
     "target": "es2015",
-    "lib": ["es6", "esnext.asynciterable"],
+    "lib": ["es6", "dom", "esnext.asynciterable"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
@@ -20,7 +22,7 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist"
   },
-  "include": ["./src/**/*.ts"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
   "files": ["./node_modules/@types/node/index.d.ts"],
   "exclude": ["dist", "node_modules", "examples", "spec"]
 }
