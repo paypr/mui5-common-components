@@ -21,7 +21,8 @@
     "posttest": "npm run lint",
     "lint": "eslint",
     "pretty": "pretty-quick",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepublishOnly": "npm run rebuild && npm run release"
   },
   "husky": {
     "hooks": {
