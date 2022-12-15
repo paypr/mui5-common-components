@@ -12,6 +12,9 @@
   "bugs": {
     "url": "https://github.com/paypr/mui5-common-components/issues"
   },
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "clean": "rm -rf dist && rm -rf out",
     "build": "tsc",
