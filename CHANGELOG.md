@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/paypr/mui5-common-components/compare/v1.0.3...v1.0.4) (2022-12-17)
+
+### Bug Fixes
+
+- [[#1](https://github.com/paypr/mui5-common-components/issues/1)] remove reference to react-router ([d418bfa](https://github.com/paypr/mui5-common-components/commit/d418bfa42108b236f0c93e93f82ee2ab35ef8fb3))
+
 ### [1.0.3](https://github.com/paypr/mui5-common-components/compare/v1.0.2...v1.0.3) (2022-12-17)
 
 ### Bug Fixes
