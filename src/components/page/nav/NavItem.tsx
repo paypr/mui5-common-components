@@ -3,7 +3,7 @@ import ListItemButton, { ListItemButtonProps } from '@mui/material/ListItemButto
 import { useTheme } from '@mui/material/styles';
 import { SvgIconProps } from '@mui/material/SvgIcon';
 import React from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import { matchPath, useLocation } from 'react-router-dom';
 import NavIcon from './NavIcon';
 import NavItemText from './NavItemText';
