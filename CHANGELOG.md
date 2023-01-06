@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/paypr/mui5-common-components/compare/v1.0.4...v1.1.0) (2023-01-06)
+
+### Features
+
+- [[#30](https://github.com/paypr/mui5-common-components/issues/30)] added table styling ([34c15f0](https://github.com/paypr/mui5-common-components/commit/34c15f0a931a280b3e666a89571e088604602065))
+
+### Bug Fixes
+
+- **deps:** update dependency @mui/material to v5.11.1 ([292af18](https://github.com/paypr/mui5-common-components/commit/292af18a35258e9addeae5b09419bb6802cdae2c))
+- **deps:** update dependency @mui/material to v5.11.2 ([e6d6ec4](https://github.com/paypr/mui5-common-components/commit/e6d6ec4e992c847b0a139b8b1bd48799b17e9c53))
+- **deps:** update dependency @mui/material to v5.11.3 ([5c1159f](https://github.com/paypr/mui5-common-components/commit/5c1159ffe4211e6e455566e5fc96a4e2c96ceb31))
+- **deps:** update dependency react-router-dom to v6.6.0 ([fb7bf58](https://github.com/paypr/mui5-common-components/commit/fb7bf58c4a3a6d0cd690c55ff5450fe90ebf8a2b))
+- **deps:** update dependency react-router-dom to v6.6.1 ([afe6869](https://github.com/paypr/mui5-common-components/commit/afe6869769d387baa6680d58c5b2c4746a442301))
+
 ### [1.0.4](https://github.com/paypr/mui5-common-components/compare/v1.0.3...v1.0.4) (2022-12-17)
 
 ### Bug Fixes
