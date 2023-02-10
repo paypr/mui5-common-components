@@ -5,24 +5,25 @@ import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import React from 'react';
 
-interface FillContentMessageProps {
-  text?: string;
-  children?: React.ReactNode;
+export interface PageErrorProps {
+  error?: Error;
 }
 
-const FillContentMessage = (props: FillContentMessageProps) => {
+const PageError = ({ error }: PageErrorProps) => {
   const theme = useTheme();
   return (
     <Paper>
       <Box
         css={css`
           padding: ${theme.spacing(3)};
-          justify-content: center;
         `}
       >
-        <Typography variant="h6">{props.text || props.children}</Typography>
+        <Typography variant="h4" color="error">
+          There was a problem loading this page.
+        </Typography>
+        {error ? <pre>{error.toString()}</pre> : null}
       </Box>
     </Paper>
   );
 };
-export default FillContentMessage;
+export default PageError;
