@@ -5,7 +5,7 @@ import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import React from 'react';
 
-interface FillContentMessageProps {
+export interface FillContentMessageProps {
   text?: string;
   children?: React.ReactNode;
 }

@@ -18,15 +18,15 @@ const NoteBlock = ({ children }: NoteBlockProps) => {
         border: 1px solid ${theme.palette.text.secondary};
         border-radius: 4px;
 
-        padding: ${theme.spacing(1)}px;
+        padding: ${theme.spacing(1)};
 
         @media (min-width: 600px) {
-          margin-top: ${theme.spacing(2)}px;
-          margin-bottom: ${theme.spacing(2)}px;
+          margin-top: ${theme.spacing(2)};
+          margin-bottom: ${theme.spacing(2)};
         }
 
-        margin-top: ${theme.spacing(1)}px;
-        margin-bottom: ${theme.spacing(1)}px;
+        margin-top: ${theme.spacing(1)};
+        margin-bottom: ${theme.spacing(1)};
       `}
     >
       <NoteTitle>Note</NoteTitle>
