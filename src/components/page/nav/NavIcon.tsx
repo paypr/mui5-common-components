@@ -39,17 +39,17 @@ interface NavIconProps {
   selected?: boolean;
 }
 
-const NavIcon = ({ icon: Icon, title, child, selected }: NavIconProps) => {
+const NavIcon = ({ icon: Icon, title, selected }: NavIconProps) => {
   return (
     <Tooltip title={<>{title}</>}>
       <>
         {selected ? (
           <SelectedListItemIcon>
-            <Icon fontSize={child ? 'small' : 'inherit'} />
+            <Icon fontSize="inherit" />
           </SelectedListItemIcon>
         ) : (
           <StyledListItemIcon>
-            <Icon fontSize={child ? 'small' : 'inherit'} />
+            <Icon fontSize="inherit" />
           </StyledListItemIcon>
         )}
       </>
