@@ -36,4 +36,4 @@ const AlternatedTableRow = styled(ClickableTableRow)`
 `;
 
 const buildAlternateColor = (theme: Theme) =>
-  alpha(theme.palette.primary.main, theme.palette.mode == 'light' ? 0.08 : 0.16);
+  alpha(theme.palette.grey.A400, theme.palette.mode == 'light' ? 0.04 : 0.08);
