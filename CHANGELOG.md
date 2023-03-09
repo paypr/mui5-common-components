@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.8](https://github.com/paypr/mui5-common-components/compare/v1.1.7...v1.1.8) (2023-03-09)
+
+### Bug Fixes
+
+- **deps:** update dependency @mui/material to v5.11.12 ([d1359c6](https://github.com/paypr/mui5-common-components/commit/d1359c6e7f952d27ca4ed0e5259f0d6fb22b8b28))
+- **deps:** update dependency react-number-format to v5.1.4 ([394c60b](https://github.com/paypr/mui5-common-components/commit/394c60b4b6a674d158b49a1408001f256d9d9a5f))
+
 ### [1.1.7](https://github.com/paypr/mui5-common-components/compare/v1.1.6...v1.1.7) (2023-02-28)
 
 ### Bug Fixes
