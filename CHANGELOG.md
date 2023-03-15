@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.9](https://github.com/paypr/mui5-common-components/compare/v1.1.8...v1.1.9) (2023-03-15)
+
+### Bug Fixes
+
+- **deps:** update dependency @mui/material to v5.11.13 ([50b92d1](https://github.com/paypr/mui5-common-components/commit/50b92d172d08dad9ef97e37366027b6e6e91dd6f))
+- **deps:** update dependency react-router-dom to v6.9.0 ([7b19c50](https://github.com/paypr/mui5-common-components/commit/7b19c50dea6124e019911a66843232db3ae6e5fe))
+
 ### [1.1.8](https://github.com/paypr/mui5-common-components/compare/v1.1.7...v1.1.8) (2023-03-09)
 
 ### Bug Fixes
