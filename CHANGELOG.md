@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.11](https://github.com/paypr/mui5-common-components/compare/v1.1.10...v1.1.11) (2023-03-19)
+
+### Bug Fixes
+
+- [[#64](https://github.com/paypr/mui5-common-components/issues/64)] updated nav item link to use onClick similar to RouteLink ([34649de](https://github.com/paypr/mui5-common-components/commit/34649de0fd37b44441b51d6daeaeacd1c8b5698e))
+
 ### [1.1.10](https://github.com/paypr/mui5-common-components/compare/v1.1.9...v1.1.10) (2023-03-16)
 
 ### [1.1.9](https://github.com/paypr/mui5-common-components/compare/v1.1.8...v1.1.9) (2023-03-15)
