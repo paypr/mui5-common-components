@@ -3,7 +3,7 @@ import ListItemButton, { ListItemButtonProps } from '@mui/material/ListItemButto
 import { useTheme } from '@mui/material/styles';
 import { SvgIconProps } from '@mui/material/SvgIcon';
 import React from 'react';
-import { matchPath, useLocation } from 'react-router-dom';
+import { matchPath, useLocation, useNavigate } from 'react-router-dom';
 import NavIcon from './NavIcon';
 import NavItemText from './NavItemText';
 
@@ -66,6 +66,7 @@ export interface NavItemProps {
 }
 
 const NavItem = ({ title, icon, path, notPath, hideInactive, hideNotPaths, hidden, disabled, child }: NavItemProps) => {
+  const navigate = useNavigate();
   const { pathname: currentPath } = useLocation();
 
   const match = matchPath(path, currentPath);
@@ -81,6 +82,17 @@ const NavItem = ({ title, icon, path, notPath, hideInactive, hideNotPaths, hidde
     }, false);
 
   const hideNotMatch = hideNotPaths ? !computeHideNotMatch(hideNotPaths) : false;
+
+  const goToPath = (event: React.MouseEvent) => {
+    if (event.ctrlKey || event.metaKey) {
+      return;
+    }
+    console.debug('goToPath', path);
+
+    event.preventDefault();
+    event.stopPropagation();
+    navigate(path);
+  };
 
   if (hidden) {
     return null;
@@ -101,6 +113,7 @@ const NavItem = ({ title, icon, path, notPath, hideInactive, hideNotPaths, hidde
       child={child}
       selected={Boolean(doesMatch)}
       disabled={disabled}
+      onClick={!match && !disabled ? goToPath : undefined}
       href={!match && !disabled ? path : '#'}
     >
       <NavIcon icon={icon} title={title} child={child} selected={Boolean(match)} />
