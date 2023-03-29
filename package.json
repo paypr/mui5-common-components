@@ -43,7 +43,7 @@
     "react-copy-to-clipboard": "5.1.0",
     "react-dom": "18.2.0",
     "react-number-format": "5.1.4",
-    "react-router-dom": "6.9.0"
+    "react-router-dom": "6.10.0"
   },
   "devDependencies": {
     "@types/jest": "29.5.0",
