@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/paypr/mui5-common-components/compare/v1.1.13...v1.2.0) (2023-04-06)
+
+### Features
+
+- [[#64](https://github.com/paypr/mui5-common-components/issues/64)] added top nav tabs ([138f19b](https://github.com/paypr/mui5-common-components/commit/138f19b50f354d6456a6ae221a6282e8664a1ccd))
+
+### Bug Fixes
+
+- **deps:** update dependency @mui/material to v5.11.14 ([79ab455](https://github.com/paypr/mui5-common-components/commit/79ab455c38203abeed880c5d79ed66a661206521))
+- **deps:** update dependency @mui/material to v5.11.15 ([da01d4d](https://github.com/paypr/mui5-common-components/commit/da01d4deb9c2b9e071728862bdc4b8a4bf1c92b5))
+- **deps:** update dependency react-router-dom to v6.10.0 ([6dcbaea](https://github.com/paypr/mui5-common-components/commit/6dcbaeaee8d4c9fa3ab153df68fe0725de1f2786))
+- **deps:** update material-ui monorepo to v5.11.16 ([553583a](https://github.com/paypr/mui5-common-components/commit/553583aacc52cfad346f1a281b3aba99d7ef85ae))
+
 ### [1.1.13](https://github.com/paypr/mui5-common-components/compare/v1.1.12...v1.1.13) (2023-03-19)
 
 ### [1.1.12](https://github.com/paypr/mui5-common-components/compare/v1.1.9...v1.1.12) (2023-03-19)
