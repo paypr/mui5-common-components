@@ -15,6 +15,7 @@
   "files": [
     "/dist"
   ],
+  "types": "dist/**/*.d.ts",
   "scripts": {
     "clean": "rm -rf dist && rm -rf out",
     "build": "tsc",
