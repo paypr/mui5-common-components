@@ -21,6 +21,7 @@ const StyledListItem = ({ child, onClick, href, selected, ...props }: StyledList
       onClick={onClick}
       href={href}
       selected={selected}
+      autoFocus={selected}
       css={css`
         ${onClick || href
           ? css`
