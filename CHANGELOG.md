@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/paypr/mui5-common-components/compare/v1.2.1...v1.2.2) (2023-06-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @mui/material to v5.12.0 ([8b56428](https://github.com/paypr/mui5-common-components/commit/8b564284a7988f65eba188994348557152044d6d))
+- **deps:** update dependency @mui/material to v5.12.1 ([438437e](https://github.com/paypr/mui5-common-components/commit/438437e9329236a4d867309afde13bd247f29820))
+- **deps:** update dependency @mui/material to v5.12.2 ([ea9a98d](https://github.com/paypr/mui5-common-components/commit/ea9a98d95111f8b9a6e34612f4716a0dab8a1ac5))
+
 ### [1.2.1](https://github.com/paypr/mui5-common-components/compare/v1.2.0...v1.2.1) (2023-04-07)
 
 ## [1.2.0](https://github.com/paypr/mui5-common-components/compare/v1.1.13...v1.2.0) (2023-04-06)
