@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://github.com/paypr/mui5-common-components/compare/v1.2.2...v1.2.3) (2023-07-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @mui/material to v5.13.6 ([2545307](https://github.com/paypr/mui5-common-components/commit/25453073749276ba48f26c4f832cd8f77d513f94))
+- **deps:** update dependency notistack to v3 ([d7ff0a7](https://github.com/paypr/mui5-common-components/commit/d7ff0a76160e81cb627b35a6b2bf7b558fba0b7a))
+- **deps:** update dependency react-number-format to v5.2.2 ([dea316f](https://github.com/paypr/mui5-common-components/commit/dea316f829942aaa2423580eaa2b959189ebca66))
+- **deps:** update dependency react-router-dom to v6.14.1 ([078248a](https://github.com/paypr/mui5-common-components/commit/078248a846b6c741e73596ac29d2e6ece66bee06))
+- **deps:** update emotion monorepo ([7554bdc](https://github.com/paypr/mui5-common-components/commit/7554bdc0014c6c8fe3b3720a7a024923790910f3))
+- **deps:** update material-ui monorepo to v5.13.7 ([171f4f8](https://github.com/paypr/mui5-common-components/commit/171f4f895bb94addd021025d396bfd74eb6852fb))
+
 ### [1.2.2](https://github.com/paypr/mui5-common-components/compare/v1.2.1...v1.2.2) (2023-06-28)
 
 ### Bug Fixes
