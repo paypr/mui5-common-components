@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/paypr/mui5-common-components/compare/v1.2.4...v1.3.0) (2023-07-31)
+
+### Features
+
+- added RefreshIconButton and TooltipIconButton ([b387e66](https://github.com/paypr/mui5-common-components/commit/b387e661e8e774a2a1e10346dc5e856b83b4d4fe))
+
 ### [1.2.4](https://github.com/paypr/mui5-common-components/compare/v1.2.3...v1.2.4) (2023-07-27)
 
 ### [1.2.3](https://github.com/paypr/mui5-common-components/compare/v1.2.2...v1.2.3) (2023-07-07)
