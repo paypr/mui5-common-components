@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/paypr/mui5-common-components/compare/v1.3.0...v1.5.0) (2023-08-01)
+
+### Features
+
+- added SecondaryButton ([3917b3c](https://github.com/paypr/mui5-common-components/commit/3917b3cb557e930b720d49cb4a2dcc40850fb00c))
+
 ## [1.4.0](https://github.com/paypr/mui5-common-components/compare/v1.3.0...v1.4.0) (2023-08-01)
 
 ### Features
