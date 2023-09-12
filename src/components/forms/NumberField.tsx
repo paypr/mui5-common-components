@@ -6,21 +6,10 @@ import { DefaultTextFieldProps } from './DefaultTextField';
 type NumberFieldProps = DefaultTextFieldProps & {
   min?: number;
   max?: number;
-  allowWheel?: boolean;
 };
 
-const NumberField = ({ type, min, max, InputProps, allowWheel, onWheel, ...rest }: NumberFieldProps) => {
+const NumberField = ({ type, min, max, InputProps, ...rest }: NumberFieldProps) => {
   const { inputProps, ...restInputProps } = { ...InputProps };
-
-  const handleWheel = (e: React.WheelEvent<HTMLInputElement>) => {
-    if (!allowWheel) {
-      e.preventDefault();
-    }
-
-    if (onWheel) {
-      onWheel(e);
-    }
-  };
 
   return (
     <TextField
@@ -35,7 +24,6 @@ const NumberField = ({ type, min, max, InputProps, allowWheel, onWheel, ...rest 
         ...restInputProps,
         inputProps: { ...inputProps, min, max },
       }}
-      onWheel={handleWheel}
     />
   );
 };
