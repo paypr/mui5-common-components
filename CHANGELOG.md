@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/paypr/mui5-common-components/compare/v1.5.0...v1.6.0) (2023-09-12)
+
+### Features
+
+- suppress wheel behavior on number input ([065ff4d](https://github.com/paypr/mui5-common-components/commit/065ff4dab77af953f7cc0fc2e0607c960abd440f))
+
 ## [1.5.0](https://github.com/paypr/mui5-common-components/compare/v1.3.0...v1.5.0) (2023-08-01)
 
 ### Features
