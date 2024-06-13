@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.2](https://github.com/paypr/mui5-common-components/compare/v1.6.1...v1.6.2) (2024-06-13)
+
+### Bug Fixes
+
+- **deps:** update dependency @emotion/react to v11.11.3 ([85567d2](https://github.com/paypr/mui5-common-components/commit/85567d220fec863b562ded4073f5afdad82d7c81))
+- **deps:** update emotion monorepo ([5e69161](https://github.com/paypr/mui5-common-components/commit/5e69161cb7d3177a06ebcff25b075adbac193b62))
+
 ### [1.6.1](https://github.com/paypr/mui5-common-components/compare/v1.6.0...v1.6.1) (2023-09-12)
 
 ### Bug Fixes
