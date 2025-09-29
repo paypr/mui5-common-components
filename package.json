@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@types/jest": "29.5.14",
-    "@types/node": "18.19.42",
+    "@types/node": "22.18.7",
     "@types/react": "18.3.10",
     "@types/react-dom": "18.2.23",
     "@types/react-router-dom": "5.3.3",
