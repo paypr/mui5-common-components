@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: node:20.3.1@sha256:57391181388cd89ede79f371e09373824051eb0f708165dcd0965f18b3682f35
+      image: node:22.20.0@sha256:4973262386dc1cb70f7d6fc48a855027d8f12d2d3b1fe559b9db9a4fcb74668f
       # this is the user that CI uses, which is needed to generate files within the repo directory
       options: --user 1001
 
@@ -21,7 +21,7 @@ jobs:
       - name: Setup node cache
         uses: actions/setup-node@v5
         with:
-          node-version: 20.3.1
+          node-version: 22.20.0
           cache: 'pnpm'
       - name: Setup NPM
         env:
