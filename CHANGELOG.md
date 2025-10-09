@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/paypr/mui5-common-components/compare/v1.6.3...v2.0.0) (2025-10-09)
+
+### ⚠ BREAKING CHANGES
+
+- dependencies will need to be included
+
+### Bug Fixes
+
+- add libs ([65574d8](https://github.com/paypr/mui5-common-components/commit/65574d877edd081a576c690f049d9700bc976cce))
+- ci ([156983c](https://github.com/paypr/mui5-common-components/commit/156983c0da2666ab48f6ce926394726e15a6addc))
+- move dependencies to peer ([30e1cd6](https://github.com/paypr/mui5-common-components/commit/30e1cd6b2e1cbcfc82fc6891377a4638d09fba28))
+
 ### [1.6.3](https://github.com/paypr/mui5-common-components/compare/v1.6.2...v1.6.3) (2024-06-13)
 
 ### [1.6.2](https://github.com/paypr/mui5-common-components/compare/v1.6.1...v1.6.2) (2024-06-13)
